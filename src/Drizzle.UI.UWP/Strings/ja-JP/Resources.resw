@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>こんにちは、rocksdanister としても知られている Dani John です。このようなソフトを趣味で作っています。ご利用くださりありがとうございます。</value>
+  </data>
+  <data name="AirQualityIndex0" xml:space="preserve">
+    <value>良好</value>
+  </data>
+  <data name="AirQualityIndex1" xml:space="preserve">
+    <value>中程度</value>
+  </data>
+  <data name="AirQualityIndex2" xml:space="preserve">
+    <value>敏感な人には影響あり</value>
+  </data>
+  <data name="AirQualityIndex3" xml:space="preserve">
+    <value>健康に影響あり</value>
+  </data>
+  <data name="AirQualityIndex4" xml:space="preserve">
+    <value>深刻</value>
+  </data>
+  <data name="AirQualityIndex5" xml:space="preserve">
+    <value>極めて深刻</value>
+  </data>
+  <data name="AlwaysHideScreensaverMenu.Content" xml:space="preserve">
+    <value>アイドル状態のときは常にメニューを非表示にする</value>
+  </data>
+  <data name="AppBarAbout.Label" xml:space="preserve">
+    <value>このアプリについて</value>
+  </data>
+  <data name="AppBarHelp.Label" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="AppBarSettings.Label" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="AppTitlebarSearch.PlaceholderText" xml:space="preserve">
+    <value>地域を検索する</value>
+  </data>
+  <data name="Attribution.Content" xml:space="preserve">
+    <value>サード パーティ製ソフトに関する通知</value>
+  </data>
+  <data name="BackgroundBrightnessSettings.Description" xml:space="preserve">
+    <value>背景の明るさを調整する</value>
+  </data>
+  <data name="BackgroundBrightnessSettings.Header" xml:space="preserve">
+    <value>明るさ</value>
+  </data>
+  <data name="BrowseFile.Content" xml:space="preserve">
+    <value>参照</value>
+  </data>
+  <data name="ChangeBackground.Content" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="CheckUpdate.Content" xml:space="preserve">
+    <value>更新プログラムを確認する</value>
+  </data>
+  <data name="CloudDayNightShift.Content" xml:space="preserve">
+    <value>昼夜</value>
+  </data>
+  <data name="CloudIterations.Header" xml:space="preserve">
+    <value>反復表現</value>
+  </data>
+  <data name="CloudScale.Header" xml:space="preserve">
+    <value>スケール</value>
+  </data>
+  <data name="ContactCard.Description" xml:space="preserve">
+    <value>機能を提案する、バグを報告する</value>
+  </data>
+  <data name="ContactCard.Header" xml:space="preserve">
+    <value>フィードバック</value>
+  </data>
+  <data name="CustomBackgroundSettings.Description" xml:space="preserve">
+    <value>天候効果にユーザーが選択した画像を含める</value>
+  </data>
+  <data name="CustomBackgroundSettings.Header" xml:space="preserve">
+    <value>カスタム背景</value>
+  </data>
+  <data name="DepthHorizontal.Header" xml:space="preserve">
+    <value>横方向の感度</value>
+  </data>
+  <data name="DepthVertical.Header" xml:space="preserve">
+    <value>縦方向の感度</value>
+  </data>
+  <data name="DescAboutAQI.Text" xml:space="preserve">
+    <value>AQI は、最も一般的な 5 つの大気汚染物質の健康への影響に関する情報を提供します。0 ～ 500 の範囲で表され、値が高いほど大気汚染が深刻で、健康へのリスクが高くなります。</value>
+  </data>
+  <data name="DescAboutCloudAmount.Text" xml:space="preserve">
+    <value>Cloud amount refers to the fraction of the sky obscured by clouds on average when observed from a particular location.</value>
+  </data>
+  <data name="DescAboutDewPoint.Text" xml:space="preserve">
+    <value>露点温度は、空気中に含まれる水蒸気の量を測定します。露点温度と気温が等しいと、相対湿度は 100% になります。このときに、空気は水蒸気で完全に飽和し、露、霧、または雲の形で結露が発生します。</value>
+  </data>
+  <data name="DescAboutHumidity.Text" xml:space="preserve">
+    <value>相対湿度は、空気中に含まれる水蒸気の量を、その温度で空気が保持できる最大の水蒸気量と比較して測定します。パーセント単位で表され、空気の飽和度に関する情報を提供します。</value>
+  </data>
+  <data name="DescAboutPrecipitation.Text" xml:space="preserve">
+    <value>Precipitation is the depth of water that would accumulate on a flat surface from the condensation of atmospheric water vapor falling from clouds due to gravitational pull. It includes various forms such as rain, snow, sleet, and hail.</value>
+  </data>
+  <data name="DescAboutPressure.Text" xml:space="preserve">
+    <value>気圧は、特定の領域内の大気圧を測定します。</value>
+  </data>
+  <data name="DescAboutUVIndex.Text" xml:space="preserve">
+    <value>世界保健機関の UV インデックス (UVI) は、日焼けを引き起こす紫外線の強さを測定します。0 ～ 11+ の範囲の線形スケールで表され、値が高いほど紫外線にさらされるリスクや、皮膚がんにつながる恐れのある皮膚の損傷を引き起こす危険性が高くなります。</value>
+  </data>
+  <data name="DescAboutVisibility.Text" xml:space="preserve">
+    <value>Visibility is a measure of the distance at which an object or light can be clearly discerned. A value at or greater than 10 km is considered good and less than 1 km poor.</value>
+  </data>
+  <data name="DescAboutWindSpeed.Text" xml:space="preserve">
+    <value>風速は、空気が特定の地点を水平方向に移動する速度を測定します。通常は温度の変化により、空気が高気圧から低気圧に移動することによって引き起こされる基本的な大気量です。突風とは、平均を超える急な風速の上昇のことで、通常 20 秒未満持続されます。</value>
+  </data>
+  <data name="DescDepthApproximating.Text" xml:space="preserve">
+    <value>深度を近似しています...</value>
+  </data>
+  <data name="DescPerformanceIssue.Text" xml:space="preserve">
+    <value>システム グラフィックス プロセッサー (GPU) は必要な DX12 機能に対応していないため、一部の機能は無効になっています。</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>この機能を使用するには追加のファイルをダウンロードする必要があります</value>
+  </data>
+  <data name="DescUpdateComplete.Text" xml:space="preserve">
+    <value>新機能を確認しましょう</value>
+  </data>
+  <data name="FeelsLikeTemperature.Text" xml:space="preserve">
+    <value>体感温度:</value>
+  </data>
+  <data name="FogAmplitude.Header" xml:space="preserve">
+    <value>霧の濃度</value>
+  </data>
+  <data name="FogColorGradient.Text" xml:space="preserve">
+    <value>霧のグラデーション</value>
+  </data>
+  <data name="FrameRateSettings.Description" xml:space="preserve">
+    <value>アニメーションのフレームレート</value>
+  </data>
+  <data name="FrameRateSettings.Header" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="InfoError.Title" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="InfoTranslation.Message" xml:space="preserve">
+    <value>他の言語に翻訳してこのプログラムに貢献する。</value>
+  </data>
+  <data name="InfoTranslation.Title" xml:space="preserve">
+    <value>翻訳に貢献する</value>
+  </data>
+  <data name="LanguageSettings.Description" xml:space="preserve">
+    <value>別の言語を選択するには、アプリを再起動する必要があります</value>
+  </data>
+  <data name="LanguageSettings.Header" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="LanguageSettingsHelpTranslate.Content" xml:space="preserve">
+    <value>翻訳に貢献する</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>システムのデフォルト</value>
+  </data>
+  <data name="LearnMore.Content" xml:space="preserve">
+    <value>もっと詳しく</value>
+  </data>
+  <data name="LocationNavView.PaneTitle" xml:space="preserve">
+    <value>ピン留めした地域</value>
+  </data>
+  <data name="OpenLogs.Header" xml:space="preserve">
+    <value>ログを開く</value>
+  </data>
+  <data name="PauseIfBackgroundAudioSettings.Header" xml:space="preserve">
+    <value>ウィンドウがアクティブでないときにオーディオを一時停止する</value>
+  </data>
+  <data name="PauseIfBackgroundSettings.Header" xml:space="preserve">
+    <value>ウィンドウがアクティブでないときにビジュアルを一時停止する</value>
+  </data>
+  <data name="PrivacyPolicy.Content" xml:space="preserve">
+    <value>データ収集ポリシー</value>
+  </data>
+  <data name="QualityDynamic.Content" xml:space="preserve">
+    <value>より高い品質</value>
+  </data>
+  <data name="QualityPerformance.Content" xml:space="preserve">
+    <value>パフォーマンス優先</value>
+  </data>
+  <data name="QualityPotato.Content" xml:space="preserve">
+    <value>より低い品質</value>
+  </data>
+  <data name="QualityQuality.Content" xml:space="preserve">
+    <value>クオリティ優先</value>
+  </data>
+  <data name="QualitySettings.Description" xml:space="preserve">
+    <value>ビジュアル レンダリング品質のプリセット</value>
+  </data>
+  <data name="QualitySettings.Header" xml:space="preserve">
+    <value>品質</value>
+  </data>
+  <data name="RainIntensity.Header" xml:space="preserve">
+    <value>強度</value>
+  </data>
+  <data name="RainLightning.Content" xml:space="preserve">
+    <value>稲妻</value>
+  </data>
+  <data name="RainNormal.Header" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="RainPanning.Content" xml:space="preserve">
+    <value>パンニング</value>
+  </data>
+  <data name="RainZoom.Header" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="ReduceMotionSettings.Header" xml:space="preserve">
+    <value>アニメーション効果を抑制する</value>
+  </data>
+  <data name="RefreshWeather.Text" xml:space="preserve">
+    <value>更新: </value>
+  </data>
+  <data name="RefreshWeatherTooltip.Text" xml:space="preserve">
+    <value>最新の情報に更新する</value>
+  </data>
+  <data name="RestoreDefault.Text" xml:space="preserve">
+    <value>デフォルトに戻す</value>
+  </data>
+  <data name="ScreensaverTooltip.Text" xml:space="preserve">
+    <value>スクリーンセーバー</value>
+  </data>
+  <data name="SettingsTooltip.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="ShaderBlur.Content" xml:space="preserve">
+    <value>ぼかし効果</value>
+  </data>
+  <data name="ShaderFreezing.Content" xml:space="preserve">
+    <value>凍結</value>
+  </data>
+  <data name="ShaderPostProcessing.Header" xml:space="preserve">
+    <value>後処理</value>
+  </data>
+  <data name="ShaderSpeed.Header" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="SnowDepth.Header" xml:space="preserve">
+    <value>奥行き</value>
+  </data>
+  <data name="SnowLayers.Header" xml:space="preserve">
+    <value>レイヤー</value>
+  </data>
+  <data name="SnowWidth.Header" xml:space="preserve">
+    <value>水平方法への移動速度</value>
+  </data>
+  <data name="SoftwareLicense.Content" xml:space="preserve">
+    <value>ソフトウェア ライセンス</value>
+  </data>
+  <data name="SoundControlTooltip.Text" xml:space="preserve">
+    <value>サウンド</value>
+  </data>
+  <data name="SourceCodeCard.Description" xml:space="preserve">
+    <value>Star を付けて感謝を伝える</value>
+  </data>
+  <data name="SourceCodeCard.Header" xml:space="preserve">
+    <value>ソース コード</value>
+  </data>
+  <data name="StringAbout" xml:space="preserve">
+    <value>このアプリについて</value>
+  </data>
+  <data name="StringCancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="StringContinue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="StringDepthApprox" xml:space="preserve">
+    <value>AI 深度の近似</value>
+  </data>
+  <data name="StringGeolocationErrorAccessDenied" xml:space="preserve">
+    <value>位置情報へのアクセスが拒否されました。Windows の設定をご確認ください。</value>
+  </data>
+  <data name="StringGeolocationErrorAccessUnspecified" xml:space="preserve">
+    <value>位置情報へのアクセスが指定されていません。Windows の設定をご確認ください。</value>
+  </data>
+  <data name="StringHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="StringOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="StringSettings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="StringWeatherKeyMissingRestoredDefault" xml:space="preserve">
+    <value>選択した気象データの提供元に対して必要な API キーが不足しているため、設定は適用されませんでした。</value>
+  </data>
+  <data name="ThemeAuto.Content" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>ダーク</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>ライト</value>
+  </data>
+  <data name="ThemeSettings.Description" xml:space="preserve">
+    <value>アプリケーションの色を変更する</value>
+  </data>
+  <data name="ThemeSettings.Header" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="TitleAboutAQI.Text" xml:space="preserve">
+    <value>空気質指数 (AQI) について</value>
+  </data>
+  <data name="TitleAboutCloudAmount.Text" xml:space="preserve">
+    <value>About Cloud Amount</value>
+  </data>
+  <data name="TitleAboutDewPoint.Text" xml:space="preserve">
+    <value>露点温度について</value>
+  </data>
+  <data name="TitleAboutHumidity.Text" xml:space="preserve">
+    <value>相対湿度について</value>
+  </data>
+  <data name="TitleAboutPrecipitation.Text" xml:space="preserve">
+    <value>About Precipitation</value>
+  </data>
+  <data name="TitleAboutPressure.Text" xml:space="preserve">
+    <value>気圧について</value>
+  </data>
+  <data name="TitleAboutUVIndex.Text" xml:space="preserve">
+    <value>UV インデックスについて</value>
+  </data>
+  <data name="TitleAboutVisibility.Text" xml:space="preserve">
+    <value>About Visibility</value>
+  </data>
+  <data name="TitleAboutWindSpeed.Text" xml:space="preserve">
+    <value>風速と突風について</value>
+  </data>
+  <data name="TitleAccessibility.Text" xml:space="preserve">
+    <value>アクセシビリティ</value>
+  </data>
+  <data name="TitleAddLocation.Text" xml:space="preserve">
+    <value>始めるには地域を追加します。</value>
+  </data>
+  <data name="TitleAirQuality.Text" xml:space="preserve">
+    <value>空気質指数</value>
+  </data>
+  <data name="TitleCloudAmount.Text" xml:space="preserve">
+    <value>Cloud Amount</value>
+  </data>
+  <data name="TitleContributors.Text" xml:space="preserve">
+    <value>貢献者</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>ダウンロードする</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>ダウンロードが必要です</value>
+  </data>
+  <data name="TitleFetchingData.Text" xml:space="preserve">
+    <value>データを取得しています。しばらくお待ちください。</value>
+  </data>
+  <data name="TitleGeneral.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="TitleHello.Text" xml:space="preserve">
+    <value>こんにちは</value>
+  </data>
+  <data name="TitleHumidity.Text" xml:space="preserve">
+    <value>湿度</value>
+  </data>
+  <data name="TitlePerformance.Text" xml:space="preserve">
+    <value>パフォーマンス</value>
+  </data>
+  <data name="TitlePrecipitation.Text" xml:space="preserve">
+    <value>Precipitation</value>
+  </data>
+  <data name="TitlePressure.Text" xml:space="preserve">
+    <value>気圧</value>
+  </data>
+  <data name="TitleSpeed.Text" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="TitleSun.Text" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="TitleSunrise.Text" xml:space="preserve">
+    <value>日の出</value>
+  </data>
+  <data name="TitleSunset.Text" xml:space="preserve">
+    <value>日の入り</value>
+  </data>
+  <data name="TitleTemperature.Text" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="TitleUpdateComplete.Text" xml:space="preserve">
+    <value>更新完了</value>
+  </data>
+  <data name="TitleUVIndex.Text" xml:space="preserve">
+    <value>UV インデックス</value>
+  </data>
+  <data name="TitleVisibility.Text" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="TitleWarning.Text" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="TitleWeather.Text" xml:space="preserve">
+    <value>気象</value>
+  </data>
+  <data name="TitleWind.Text" xml:space="preserve">
+    <value>風</value>
+  </data>
+  <data name="UVIndex0" xml:space="preserve">
+    <value>良好</value>
+  </data>
+  <data name="UVIndex1" xml:space="preserve">
+    <value>高い</value>
+  </data>
+  <data name="UVIndex2" xml:space="preserve">
+    <value>非常に高い</value>
+  </data>
+  <data name="WeatherProviderKeySettings.Header" xml:space="preserve">
+    <value>API キー</value>
+  </data>
+  <data name="WeatherProviderKeySettingsTextbox.PlaceholderText" xml:space="preserve">
+    <value>必要な API キーを入力する</value>
+  </data>
+  <data name="WeatherProviderSettings.Description" xml:space="preserve">
+    <value>気象データの提供元</value>
+  </data>
+  <data name="WeatherProviderSettings.Header" xml:space="preserve">
+    <value>提供元</value>
+  </data>
+  <data name="WeatherUnitCustom.Content" xml:space="preserve">
+    <value>カスタム</value>
+  </data>
+  <data name="WeatherUnitHybrid.Content" xml:space="preserve">
+    <value>組み合わせ</value>
+  </data>
+  <data name="WeatherUnitImperial.Content" xml:space="preserve">
+    <value>ヤードポンド法</value>
+  </data>
+  <data name="WeatherUnitMetric.Content" xml:space="preserve">
+    <value>メートル法</value>
+  </data>
+  <data name="WeatherUnitSettings.Description" xml:space="preserve">
+    <value>測定値の表示方法</value>
+  </data>
+  <data name="WeatherUnitSettings.Header" xml:space="preserve">
+    <value>単位</value>
+  </data>
+  <data name="WebpageCard.Description" xml:space="preserve">
+    <value>公式 Web ページ</value>
+  </data>
+  <data name="WebpageCard.Header" xml:space="preserve">
+    <value>Web サイト</value>
+  </data>
+  <data name="WelcomeMessageBeta.Text" xml:space="preserve">
+    <value>天気アプリへようこそ! このアプリはベータ版であり、一部の機能は正常に動作しないことがあります。アプリを改善し、より良くするために取り組んでいます。</value>
+  </data>
+  <data name="WmoWeatherString0" xml:space="preserve">
+    <value>快晴</value>
+  </data>
+  <data name="WmoWeatherString1" xml:space="preserve">
+    <value>晴れ</value>
+  </data>
+  <data name="WmoWeatherString10" xml:space="preserve">
+    <value>もや</value>
+  </data>
+  <data name="WmoWeatherString2" xml:space="preserve">
+    <value>ところにより曇り</value>
+  </data>
+  <data name="WmoWeatherString3" xml:space="preserve">
+    <value>曇り</value>
+  </data>
+  <data name="WmoWeatherString45" xml:space="preserve">
+    <value>霧</value>
+  </data>
+  <data name="WmoWeatherString48" xml:space="preserve">
+    <value>霧氷が積もる</value>
+  </data>
+  <data name="WmoWeatherString5" xml:space="preserve">
+    <value>煙霧</value>
+  </data>
+  <data name="WmoWeatherString51" xml:space="preserve">
+    <value>軽い霧雨</value>
+  </data>
+  <data name="WmoWeatherString53" xml:space="preserve">
+    <value>中程度の霧雨</value>
+  </data>
+  <data name="WmoWeatherString55" xml:space="preserve">
+    <value>濃い霧雨</value>
+  </data>
+  <data name="WmoWeatherString56" xml:space="preserve">
+    <value>軽い着氷性の霧雨</value>
+  </data>
+  <data name="WmoWeatherString57" xml:space="preserve">
+    <value>濃い着氷性の霧雨</value>
+  </data>
+  <data name="WmoWeatherString6" xml:space="preserve">
+    <value>粉じん</value>
+  </data>
+  <data name="WmoWeatherString61" xml:space="preserve">
+    <value>小雨</value>
+  </data>
+  <data name="WmoWeatherString63" xml:space="preserve">
+    <value>中程度の雨</value>
+  </data>
+  <data name="WmoWeatherString65" xml:space="preserve">
+    <value>大雨</value>
+  </data>
+  <data name="WmoWeatherString66" xml:space="preserve">
+    <value>軽い雨氷</value>
+  </data>
+  <data name="WmoWeatherString67" xml:space="preserve">
+    <value>激しい雨氷</value>
+  </data>
+  <data name="WmoWeatherString71" xml:space="preserve">
+    <value>わずかな雪</value>
+  </data>
+  <data name="WmoWeatherString73" xml:space="preserve">
+    <value>中程度の雪</value>
+  </data>
+  <data name="WmoWeatherString75" xml:space="preserve">
+    <value>大雪</value>
+  </data>
+  <data name="WmoWeatherString77" xml:space="preserve">
+    <value>霧雪</value>
+  </data>
+  <data name="WmoWeatherString80" xml:space="preserve">
+    <value>わずかな散発的な雨</value>
+  </data>
+  <data name="WmoWeatherString81" xml:space="preserve">
+    <value>中程度の散発的な雨</value>
+  </data>
+  <data name="WmoWeatherString82" xml:space="preserve">
+    <value>激しい散発的な雨</value>
+  </data>
+  <data name="WmoWeatherString85" xml:space="preserve">
+    <value>わずかな散発的な雪</value>
+  </data>
+  <data name="WmoWeatherString86" xml:space="preserve">
+    <value>激しい散発的な雪</value>
+  </data>
+  <data name="WmoWeatherString95" xml:space="preserve">
+    <value>雷雨</value>
+  </data>
+  <data name="WmoWeatherString96" xml:space="preserve">
+    <value>軽くひょうを伴う雷雨</value>
+  </data>
+  <data name="WmoWeatherString99" xml:space="preserve">
+    <value>激しくひょうを伴う雷雨</value>
+  </data>
+</root>

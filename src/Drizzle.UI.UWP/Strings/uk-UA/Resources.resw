@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Привіт, я Дані Джон, також відомий як rocksdanister, і я роблю ось такі цікаві програми. Дякую, що знайшли час подивитися на мою роботу.</value>
+  </data>
+  <data name="AirQualityIndex0" xml:space="preserve">
+    <value>Добрий</value>
+  </data>
+  <data name="AirQualityIndex1" xml:space="preserve">
+    <value>Помірний</value>
+  </data>
+  <data name="AirQualityIndex2" xml:space="preserve">
+    <value>Шкідливий для чутливих груп</value>
+  </data>
+  <data name="AirQualityIndex3" xml:space="preserve">
+    <value>Шкідливий</value>
+  </data>
+  <data name="AirQualityIndex4" xml:space="preserve">
+    <value>Дуже шкідливий</value>
+  </data>
+  <data name="AirQualityIndex5" xml:space="preserve">
+    <value>Небезпечний</value>
+  </data>
+  <data name="AlwaysHideScreensaverMenu.Content" xml:space="preserve">
+    <value>Завжди приховувати меню під час неактивності</value>
+  </data>
+  <data name="AppBarAbout.Label" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="AppBarHelp.Label" xml:space="preserve">
+    <value>Довідка</value>
+  </data>
+  <data name="AppBarSettings.Label" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="AppTitlebarSearch.PlaceholderText" xml:space="preserve">
+    <value>Знайти місце</value>
+  </data>
+  <data name="Attribution.Content" xml:space="preserve">
+    <value>Повідомлення про ПЗ третіх сторін</value>
+  </data>
+  <data name="BackgroundBrightnessSettings.Description" xml:space="preserve">
+    <value>Налаштувати яскравість фону</value>
+  </data>
+  <data name="BackgroundBrightnessSettings.Header" xml:space="preserve">
+    <value>Яскравість</value>
+  </data>
+  <data name="BrowseFile.Content" xml:space="preserve">
+    <value>Огляд</value>
+  </data>
+  <data name="ChangeBackground.Content" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="CheckUpdate.Content" xml:space="preserve">
+    <value>Перевірити оновлення</value>
+  </data>
+  <data name="CloudDayNightShift.Content" xml:space="preserve">
+    <value>День/Ніч</value>
+  </data>
+  <data name="CloudIterations.Header" xml:space="preserve">
+    <value>Ітерації</value>
+  </data>
+  <data name="CloudScale.Header" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="ContactCard.Description" xml:space="preserve">
+    <value>Запропонуйте функцію або повідомте про помилку</value>
+  </data>
+  <data name="ContactCard.Header" xml:space="preserve">
+    <value>Зворотний зв’язок</value>
+  </data>
+  <data name="CustomBackgroundSettings.Description" xml:space="preserve">
+    <value>Включити обрані користувачем зображення до погодних ефектів</value>
+  </data>
+  <data name="CustomBackgroundSettings.Header" xml:space="preserve">
+    <value>Користувацький фон</value>
+  </data>
+  <data name="DepthHorizontal.Header" xml:space="preserve">
+    <value>Горизонтальний зсув</value>
+  </data>
+  <data name="DepthVertical.Header" xml:space="preserve">
+    <value>Вертикальний зсув</value>
+  </data>
+  <data name="DescAboutAQI.Text" xml:space="preserve">
+    <value>AQI призначений для надання інформації про вплив на здоров'я п'яти найпоширеніших забруднювачів повітря. Це шкала від 0 до 500, де вищі значення вказують на сильніше забруднення повітря та більші ризики для здоров’я.</value>
+  </data>
+  <data name="DescAboutCloudAmount.Text" xml:space="preserve">
+    <value>Cloud amount refers to the fraction of the sky obscured by clouds on average when observed from a particular location.</value>
+  </data>
+  <data name="DescAboutDewPoint.Text" xml:space="preserve">
+    <value>Температура точки роси – це абсолютний показник кількості водяної пари у повітрі. Коли температура точки роси збігається з фактичною температурою повітря, відносна вологість повітря становить 100%. У цей момент повітря повністю насичене водяною парою, що призводить до конденсації у вигляді роси, туману або хмар.</value>
+  </data>
+  <data name="DescAboutHumidity.Text" xml:space="preserve">
+    <value>Відносна вологість – це показник кількості водяної пари, присутньої в повітрі, у порівнянні з максимальною кількістю, яку повітря може утримувати за цієї температури. Вона виражається у відсотках й надає інформацію про те, наскільки повітря близьке до насичення.</value>
+  </data>
+  <data name="DescAboutPrecipitation.Text" xml:space="preserve">
+    <value>Precipitation is the depth of water that would accumulate on a flat surface from the condensation of atmospheric water vapor falling from clouds due to gravitational pull. It includes various forms such as rain, snow, sleet, and hail.</value>
+  </data>
+  <data name="DescAboutPressure.Text" xml:space="preserve">
+    <value>Атмосферний тиск, також відомий як барометричний тиск, є мірою тиску повітря у певній місцевості.</value>
+  </data>
+  <data name="DescAboutUVIndex.Text" xml:space="preserve">
+    <value>УФ-індекс (UVI) Всесвітньої організації охорони здоров’я – це показник сили ультрафіолетового випромінювання, що спричиняє сонячні опіки. Це лінійна шкала від 0 до 11+, де вищі значення вказують на більший ризик впливу ультрафіолетових променів з підвищеними шансами отримати сонячні опіки та пошкодження шкіри, що в кінцевому підсумку може призвести до раку шкіри.</value>
+  </data>
+  <data name="DescAboutVisibility.Text" xml:space="preserve">
+    <value>Visibility is a measure of the distance at which an object or light can be clearly discerned. A value at or greater than 10 km is considered good and less than 1 km poor.</value>
+  </data>
+  <data name="DescAboutWindSpeed.Text" xml:space="preserve">
+    <value>Швидкість вітру – це швидкість, з якою повітря рухається горизонтально повз задану точку. Це основна атмосферна величина, спричинена переміщенням повітря від високого до низького тиску, зазвичай через зміни температури. Пориви – це раптові зростання швидкості вітру вище середньої швидкості вітру. Зазвичай тривають менше 20 секунд.</value>
+  </data>
+  <data name="DescDepthApproximating.Text" xml:space="preserve">
+    <value>Визначення глибини..</value>
+  </data>
+  <data name="DescPerformanceIssue.Text" xml:space="preserve">
+    <value>Системний графічний процесор (GPU) не підтримує необхідні функції DX12, тому деякі функції вимкнені.</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Для цієї функції потрібно завантажити додаткові файли</value>
+  </data>
+  <data name="DescUpdateComplete.Text" xml:space="preserve">
+    <value>Перевірте, що нового</value>
+  </data>
+  <data name="FeelsLikeTemperature.Text" xml:space="preserve">
+    <value>Відчувається як</value>
+  </data>
+  <data name="FogAmplitude.Header" xml:space="preserve">
+    <value>Амплітуда</value>
+  </data>
+  <data name="FogColorGradient.Text" xml:space="preserve">
+    <value>Колірний градієнт</value>
+  </data>
+  <data name="FrameRateSettings.Description" xml:space="preserve">
+    <value>Частота кадрів анімації</value>
+  </data>
+  <data name="FrameRateSettings.Header" xml:space="preserve">
+    <value>Кадр./с</value>
+  </data>
+  <data name="InfoError.Title" xml:space="preserve">
+    <value>Помилка</value>
+  </data>
+  <data name="InfoTranslation.Message" xml:space="preserve">
+    <value>Зробіть внесок у цю програму, переклавши її іншими мови.</value>
+  </data>
+  <data name="InfoTranslation.Title" xml:space="preserve">
+    <value>Допомогти з перекладом</value>
+  </data>
+  <data name="LanguageSettings.Description" xml:space="preserve">
+    <value>Після зміни мови програму треба перезапустити</value>
+  </data>
+  <data name="LanguageSettings.Header" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="LanguageSettingsHelpTranslate.Content" xml:space="preserve">
+    <value>Допомогти з перекладом!</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Як у Windows</value>
+  </data>
+  <data name="LearnMore.Content" xml:space="preserve">
+    <value>Докладніше</value>
+  </data>
+  <data name="LocationNavView.PaneTitle" xml:space="preserve">
+    <value>Закріплені місця</value>
+  </data>
+  <data name="OpenLogs.Header" xml:space="preserve">
+    <value>Відкрити логи</value>
+  </data>
+  <data name="PauseIfBackgroundAudioSettings.Header" xml:space="preserve">
+    <value>Призупиняти звук, коли програма у фоновому режимі</value>
+  </data>
+  <data name="PauseIfBackgroundSettings.Header" xml:space="preserve">
+    <value>Призупиняти візуалізацію, коли програма у фоновому режимі</value>
+  </data>
+  <data name="PrivacyPolicy.Content" xml:space="preserve">
+    <value>Політика збирання даних</value>
+  </data>
+  <data name="QualityDynamic.Content" xml:space="preserve">
+    <value>Динамічно</value>
+  </data>
+  <data name="QualityPerformance.Content" xml:space="preserve">
+    <value>Продуктивно</value>
+  </data>
+  <data name="QualityPotato.Content" xml:space="preserve">
+    <value>Картоплинка</value>
+  </data>
+  <data name="QualityQuality.Content" xml:space="preserve">
+    <value>Якісно</value>
+  </data>
+  <data name="QualitySettings.Description" xml:space="preserve">
+    <value>Рівень якості візуалізації</value>
+  </data>
+  <data name="QualitySettings.Header" xml:space="preserve">
+    <value>Якість</value>
+  </data>
+  <data name="RainIntensity.Header" xml:space="preserve">
+    <value>Інтенсивність</value>
+  </data>
+  <data name="RainLightning.Content" xml:space="preserve">
+    <value>Блискавка</value>
+  </data>
+  <data name="RainNormal.Header" xml:space="preserve">
+    <value>Вираженість</value>
+  </data>
+  <data name="RainPanning.Content" xml:space="preserve">
+    <value>Панорамування</value>
+  </data>
+  <data name="RainZoom.Header" xml:space="preserve">
+    <value>Збільшення</value>
+  </data>
+  <data name="ReduceMotionSettings.Header" xml:space="preserve">
+    <value>Зменшена рухомість</value>
+  </data>
+  <data name="RefreshWeather.Text" xml:space="preserve">
+    <value>Востаннє оновлено</value>
+  </data>
+  <data name="RefreshWeatherTooltip.Text" xml:space="preserve">
+    <value>Оновити</value>
+  </data>
+  <data name="RestoreDefault.Text" xml:space="preserve">
+    <value>Відновити стандартні налаштування</value>
+  </data>
+  <data name="ScreensaverTooltip.Text" xml:space="preserve">
+    <value>Заставка</value>
+  </data>
+  <data name="SettingsTooltip.Text" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="ShaderBlur.Content" xml:space="preserve">
+    <value>Розмиття</value>
+  </data>
+  <data name="ShaderFreezing.Content" xml:space="preserve">
+    <value>Замерзання</value>
+  </data>
+  <data name="ShaderPostProcessing.Header" xml:space="preserve">
+    <value>Постобробка</value>
+  </data>
+  <data name="ShaderSpeed.Header" xml:space="preserve">
+    <value>Швидкість</value>
+  </data>
+  <data name="SnowDepth.Header" xml:space="preserve">
+    <value>Глибина</value>
+  </data>
+  <data name="SnowLayers.Header" xml:space="preserve">
+    <value>К-сть шарів</value>
+  </data>
+  <data name="SnowWidth.Header" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="SoftwareLicense.Content" xml:space="preserve">
+    <value>Ліцензія ПЗ</value>
+  </data>
+  <data name="SoundControlTooltip.Text" xml:space="preserve">
+    <value>Звук</value>
+  </data>
+  <data name="SourceCodeCard.Description" xml:space="preserve">
+    <value>Проявіть свою любов через зірочку на GitHub</value>
+  </data>
+  <data name="SourceCodeCard.Header" xml:space="preserve">
+    <value>Вихідний код</value>
+  </data>
+  <data name="StringAbout" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="StringCancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="StringContinue" xml:space="preserve">
+    <value>Продовжити</value>
+  </data>
+  <data name="StringDepthApprox" xml:space="preserve">
+    <value>Визначення глибини з ШІ</value>
+  </data>
+  <data name="StringGeolocationErrorAccessDenied" xml:space="preserve">
+    <value>Немає доступу на визначення розташування, перевірте налаштування Windows.</value>
+  </data>
+  <data name="StringGeolocationErrorAccessUnspecified" xml:space="preserve">
+    <value>Доступ на визначення розташування невизначений, перевірте налаштування Windows.</value>
+  </data>
+  <data name="StringHelp" xml:space="preserve">
+    <value>Довідка</value>
+  </data>
+  <data name="StringOk" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="StringSettings" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="StringWeatherKeyMissingRestoredDefault" xml:space="preserve">
+    <value>Необхідний ключ API відсутній для обраного постачальника погоди, налаштування відновлені.</value>
+  </data>
+  <data name="ThemeAuto.Content" xml:space="preserve">
+    <value>Автоматична</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>Темна</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>Світла</value>
+  </data>
+  <data name="ThemeSettings.Description" xml:space="preserve">
+    <value>Змінити колір програми</value>
+  </data>
+  <data name="ThemeSettings.Header" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="TitleAboutAQI.Text" xml:space="preserve">
+    <value>Про індекс якості повітря (AQI)</value>
+  </data>
+  <data name="TitleAboutCloudAmount.Text" xml:space="preserve">
+    <value>About Cloud Amount</value>
+  </data>
+  <data name="TitleAboutDewPoint.Text" xml:space="preserve">
+    <value>Про точку роси</value>
+  </data>
+  <data name="TitleAboutHumidity.Text" xml:space="preserve">
+    <value>Про відносну вологість повітря</value>
+  </data>
+  <data name="TitleAboutPrecipitation.Text" xml:space="preserve">
+    <value>About Precipitation</value>
+  </data>
+  <data name="TitleAboutPressure.Text" xml:space="preserve">
+    <value>Про атмосферний тиск</value>
+  </data>
+  <data name="TitleAboutUVIndex.Text" xml:space="preserve">
+    <value>Про УФ-індекс</value>
+  </data>
+  <data name="TitleAboutVisibility.Text" xml:space="preserve">
+    <value>About Visibility</value>
+  </data>
+  <data name="TitleAboutWindSpeed.Text" xml:space="preserve">
+    <value>Про швидкість та пориви вітру</value>
+  </data>
+  <data name="TitleAccessibility.Text" xml:space="preserve">
+    <value>Спеціальні можливості</value>
+  </data>
+  <data name="TitleAddLocation.Text" xml:space="preserve">
+    <value>Додайте місце, щоби розпочати.</value>
+  </data>
+  <data name="TitleAirQuality.Text" xml:space="preserve">
+    <value>Індекс якості повітря</value>
+  </data>
+  <data name="TitleCloudAmount.Text" xml:space="preserve">
+    <value>Cloud Amount</value>
+  </data>
+  <data name="TitleContributors.Text" xml:space="preserve">
+    <value>Співавтори</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Завантажити</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Потрібне завантаження</value>
+  </data>
+  <data name="TitleFetchingData.Text" xml:space="preserve">
+    <value>Отримання даних. Будь ласка, зачекайте.</value>
+  </data>
+  <data name="TitleGeneral.Text" xml:space="preserve">
+    <value>Загальне</value>
+  </data>
+  <data name="TitleHello.Text" xml:space="preserve">
+    <value>Привіт</value>
+  </data>
+  <data name="TitleHumidity.Text" xml:space="preserve">
+    <value>Вологість повітря</value>
+  </data>
+  <data name="TitlePerformance.Text" xml:space="preserve">
+    <value>Продуктивність</value>
+  </data>
+  <data name="TitlePrecipitation.Text" xml:space="preserve">
+    <value>Precipitation</value>
+  </data>
+  <data name="TitlePressure.Text" xml:space="preserve">
+    <value>Атмосферний тиск</value>
+  </data>
+  <data name="TitleSpeed.Text" xml:space="preserve">
+    <value>Швидкість</value>
+  </data>
+  <data name="TitleSun.Text" xml:space="preserve">
+    <value>Схід і захід сонця</value>
+  </data>
+  <data name="TitleSunrise.Text" xml:space="preserve">
+    <value>Схід сонця</value>
+  </data>
+  <data name="TitleSunset.Text" xml:space="preserve">
+    <value>Захід сонця</value>
+  </data>
+  <data name="TitleTemperature.Text" xml:space="preserve">
+    <value>Одиниці температури</value>
+  </data>
+  <data name="TitleUpdateComplete.Text" xml:space="preserve">
+    <value>Оновлено</value>
+  </data>
+  <data name="TitleUVIndex.Text" xml:space="preserve">
+    <value>УФ-індекс</value>
+  </data>
+  <data name="TitleVisibility.Text" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="TitleWarning.Text" xml:space="preserve">
+    <value>Увага</value>
+  </data>
+  <data name="TitleWeather.Text" xml:space="preserve">
+    <value>Погода</value>
+  </data>
+  <data name="TitleWind.Text" xml:space="preserve">
+    <value>Вітер</value>
+  </data>
+  <data name="UVIndex0" xml:space="preserve">
+    <value>У нормі</value>
+  </data>
+  <data name="UVIndex1" xml:space="preserve">
+    <value>Високий</value>
+  </data>
+  <data name="UVIndex2" xml:space="preserve">
+    <value>Дуже високий</value>
+  </data>
+  <data name="WeatherProviderKeySettings.Header" xml:space="preserve">
+    <value>Ключ API</value>
+  </data>
+  <data name="WeatherProviderKeySettingsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Введіть необхідний ключ API</value>
+  </data>
+  <data name="WeatherProviderSettings.Description" xml:space="preserve">
+    <value>Джерело погодних даних</value>
+  </data>
+  <data name="WeatherProviderSettings.Header" xml:space="preserve">
+    <value>Постачальник</value>
+  </data>
+  <data name="WeatherUnitCustom.Content" xml:space="preserve">
+    <value>Власні</value>
+  </data>
+  <data name="WeatherUnitHybrid.Content" xml:space="preserve">
+    <value>Змішані</value>
+  </data>
+  <data name="WeatherUnitImperial.Content" xml:space="preserve">
+    <value>Імперські</value>
+  </data>
+  <data name="WeatherUnitMetric.Content" xml:space="preserve">
+    <value>Метричні</value>
+  </data>
+  <data name="WeatherUnitSettings.Description" xml:space="preserve">
+    <value>Показувати вимірювання у цих одиницях</value>
+  </data>
+  <data name="WeatherUnitSettings.Header" xml:space="preserve">
+    <value>Одиниці вимірювання</value>
+  </data>
+  <data name="WebpageCard.Description" xml:space="preserve">
+    <value>Офіційна вебсторінка</value>
+  </data>
+  <data name="WebpageCard.Header" xml:space="preserve">
+    <value>Вебсайт</value>
+  </data>
+  <data name="WelcomeMessageBeta.Text" xml:space="preserve">
+    <value>Вітаю у моїй програмі! Будь ласка, зауважте, що програма досі знаходиться у стадії бета-версії, тому деякі функції можуть працювати не так, як очікується. Я наполегливо працюю над вдосконаленнями та покращеннями програми. Дякую за ваше розуміння та терпіння.</value>
+  </data>
+  <data name="WmoWeatherString0" xml:space="preserve">
+    <value>Ясно</value>
+  </data>
+  <data name="WmoWeatherString1" xml:space="preserve">
+    <value>Переважно ясно</value>
+  </data>
+  <data name="WmoWeatherString10" xml:space="preserve">
+    <value>Серпанок</value>
+  </data>
+  <data name="WmoWeatherString2" xml:space="preserve">
+    <value>Мінлива хмарність</value>
+  </data>
+  <data name="WmoWeatherString3" xml:space="preserve">
+    <value>Суцільна хмарність</value>
+  </data>
+  <data name="WmoWeatherString45" xml:space="preserve">
+    <value>Туман</value>
+  </data>
+  <data name="WmoWeatherString48" xml:space="preserve">
+    <value>Переохолоджений туман</value>
+  </data>
+  <data name="WmoWeatherString5" xml:space="preserve">
+    <value>Імла</value>
+  </data>
+  <data name="WmoWeatherString51" xml:space="preserve">
+    <value>Легка мряка</value>
+  </data>
+  <data name="WmoWeatherString53" xml:space="preserve">
+    <value>Помірна мряка</value>
+  </data>
+  <data name="WmoWeatherString55" xml:space="preserve">
+    <value>Густа мряка</value>
+  </data>
+  <data name="WmoWeatherString56" xml:space="preserve">
+    <value>Легка переохолоджена мряка</value>
+  </data>
+  <data name="WmoWeatherString57" xml:space="preserve">
+    <value>Густа переохолоджена мряка</value>
+  </data>
+  <data name="WmoWeatherString6" xml:space="preserve">
+    <value>Пил в повітрі</value>
+  </data>
+  <data name="WmoWeatherString61" xml:space="preserve">
+    <value>Слабкий дощ</value>
+  </data>
+  <data name="WmoWeatherString63" xml:space="preserve">
+    <value>Дощ</value>
+  </data>
+  <data name="WmoWeatherString65" xml:space="preserve">
+    <value>Сильний дощ</value>
+  </data>
+  <data name="WmoWeatherString66" xml:space="preserve">
+    <value>Слабкий переохолоджений дощ</value>
+  </data>
+  <data name="WmoWeatherString67" xml:space="preserve">
+    <value>Сильний переохолоджений дощ</value>
+  </data>
+  <data name="WmoWeatherString71" xml:space="preserve">
+    <value>Слабкий снігопад</value>
+  </data>
+  <data name="WmoWeatherString73" xml:space="preserve">
+    <value>Снігопад</value>
+  </data>
+  <data name="WmoWeatherString75" xml:space="preserve">
+    <value>Сильний снігопад</value>
+  </data>
+  <data name="WmoWeatherString77" xml:space="preserve">
+    <value>Снігові зерна</value>
+  </data>
+  <data name="WmoWeatherString80" xml:space="preserve">
+    <value>Слабкі зливові дощі</value>
+  </data>
+  <data name="WmoWeatherString81" xml:space="preserve">
+    <value>Зливові дощі</value>
+  </data>
+  <data name="WmoWeatherString82" xml:space="preserve">
+    <value>Сильні зливові дощі</value>
+  </data>
+  <data name="WmoWeatherString85" xml:space="preserve">
+    <value>Слабкий зливовий сніг</value>
+  </data>
+  <data name="WmoWeatherString86" xml:space="preserve">
+    <value>Сильний зливовий сніг</value>
+  </data>
+  <data name="WmoWeatherString95" xml:space="preserve">
+    <value>Гроза</value>
+  </data>
+  <data name="WmoWeatherString96" xml:space="preserve">
+    <value>Гроза зі слабким градом</value>
+  </data>
+  <data name="WmoWeatherString99" xml:space="preserve">
+    <value>Гроза із сильним градом</value>
+  </data>
+</root>

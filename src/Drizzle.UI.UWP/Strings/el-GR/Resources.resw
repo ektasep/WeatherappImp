@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Γεια σου, είμαι ο Dani John επίσης γνωστός ως rocksdanister. Κάνω διασκεδαστικό λογισμικό σαν αυτό. Σε ευχαριστώ που αφιερώνεις χρόνο για να δεις τη δουλειά μου.</value>
+  </data>
+  <data name="AirQualityIndex0" xml:space="preserve">
+    <value>Καλός</value>
+  </data>
+  <data name="AirQualityIndex1" xml:space="preserve">
+    <value>Μέτριος</value>
+  </data>
+  <data name="AirQualityIndex2" xml:space="preserve">
+    <value>Ανθυγιεινός για ευπαθείς ομάδες</value>
+  </data>
+  <data name="AirQualityIndex3" xml:space="preserve">
+    <value>Ανθυγιεινός</value>
+  </data>
+  <data name="AirQualityIndex4" xml:space="preserve">
+    <value>Πολύ ανθυγιεινός</value>
+  </data>
+  <data name="AirQualityIndex5" xml:space="preserve">
+    <value>Επικίνδυνος</value>
+  </data>
+  <data name="AlwaysHideScreensaverMenu.Content" xml:space="preserve">
+    <value>Πάντα απόκρυψη μενού κατά την αδράνεια</value>
+  </data>
+  <data name="AppBarAbout.Label" xml:space="preserve">
+    <value>Σχετικά</value>
+  </data>
+  <data name="AppBarHelp.Label" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="AppBarSettings.Label" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="AppTitlebarSearch.PlaceholderText" xml:space="preserve">
+    <value>Αναζήτηση ενός μέρους</value>
+  </data>
+  <data name="Attribution.Content" xml:space="preserve">
+    <value>Γνωστοποίηση λογισμικού τρίτων</value>
+  </data>
+  <data name="BackgroundBrightnessSettings.Description" xml:space="preserve">
+    <value>Ρύθμιση φωτεινότητας φόντου</value>
+  </data>
+  <data name="BackgroundBrightnessSettings.Header" xml:space="preserve">
+    <value>Φωτεινότητα</value>
+  </data>
+  <data name="BrowseFile.Content" xml:space="preserve">
+    <value>Περιήγηση</value>
+  </data>
+  <data name="ChangeBackground.Content" xml:space="preserve">
+    <value>Παρασκήνιο</value>
+  </data>
+  <data name="CheckUpdate.Content" xml:space="preserve">
+    <value>Έλεγχος για ενημερώσεις</value>
+  </data>
+  <data name="CloudDayNightShift.Content" xml:space="preserve">
+    <value>Μέρα/Νύχτα</value>
+  </data>
+  <data name="CloudIterations.Header" xml:space="preserve">
+    <value>Επαναλήψεις</value>
+  </data>
+  <data name="CloudScale.Header" xml:space="preserve">
+    <value>Κλίμακα</value>
+  </data>
+  <data name="ContactCard.Description" xml:space="preserve">
+    <value>Προτείνετε ένα χαρακτηριστικό ή αναφέρετε ένα σφάλμα</value>
+  </data>
+  <data name="ContactCard.Header" xml:space="preserve">
+    <value>Επικοινωνία</value>
+  </data>
+  <data name="CustomBackgroundSettings.Description" xml:space="preserve">
+    <value>Συμπερίληψη επιλεγμένων εικόνων χρήστη στα εφέ καιρού</value>
+  </data>
+  <data name="CustomBackgroundSettings.Header" xml:space="preserve">
+    <value>Προσαρμοσμένο φόντο</value>
+  </data>
+  <data name="DepthHorizontal.Header" xml:space="preserve">
+    <value>Οριζόντιο</value>
+  </data>
+  <data name="DepthVertical.Header" xml:space="preserve">
+    <value>Κάθετο</value>
+  </data>
+  <data name="DescAboutAQI.Text" xml:space="preserve">
+    <value>Ο ΔΠΑ έχει σχεδιαστεί για να παρέχει πληροφορίες σχετικά με τις επιπτώσεις στην υγεία των πέντε πιο κοινών ατμοσφαιρικών ρύπων. Πρόκειται για μια κλίμακα που κυμαίνεται από το 0 έως 500, με υψηλότερες τιμές να υποδεικνύουν σοβαρότερη ατμοσφαιρική ρύπανση και μεγαλύτερους κινδύνους για την υγεία.</value>
+  </data>
+  <data name="DescAboutCloudAmount.Text" xml:space="preserve">
+    <value>Cloud amount refers to the fraction of the sky obscured by clouds on average when observed from a particular location.</value>
+  </data>
+  <data name="DescAboutDewPoint.Text" xml:space="preserve">
+    <value>Η θερμοκρασία σημείου δρόσου είναι μια απόλυτη μέτρηση της ποσότητας υδρατμών στον αέρα. Όταν η θερμοκρασία του σημείου δρόσου και η θερμοκρασία του αέρα είναι ίσες, η σχετική υγρασία είναι 100%. Σε αυτό το σημείο, ο αέρας είναι εντελώς κορεσμένος με υδρατμούς, που οδηγεί σε συμπύκνωση με τη μορφή δρόσου, ομίχλης ή συννέφων.</value>
+  </data>
+  <data name="DescAboutHumidity.Text" xml:space="preserve">
+    <value>Η σχετική υγρασία είναι ένα μέτρο της ποσότητας υδρατμών που υπάρχει στον αέρα σε σύγκριση με τη μέγιστη ποσότητα που θα μπορούσε να κρατήσει ο αέρας σε αυτή τη θερμοκρασία. Εκφράζεται ως ποσοστό και παρέχει πληροφορίες σχετικά με το πόσο κοντά είναι ο αέρας στον κορεσμό.</value>
+  </data>
+  <data name="DescAboutPrecipitation.Text" xml:space="preserve">
+    <value>Precipitation is the depth of water that would accumulate on a flat surface from the condensation of atmospheric water vapor falling from clouds due to gravitational pull. It includes various forms such as rain, snow, sleet, and hail.</value>
+  </data>
+  <data name="DescAboutPressure.Text" xml:space="preserve">
+    <value>Η βαρομετρική πίεση, γνωστή και ως ατμοσφαιρική πίεση, είναι η μέτρηση της πίεσης του αέρα σε μια δεδομένη περιοχή.</value>
+  </data>
+  <data name="DescAboutUVIndex.Text" xml:space="preserve">
+    <value>Ο δείκτης UV (UVI) του Παγκόσμιου Οργανισμού Υγείας μετρά τη δύναμη υπεριώδους ακτινοβολίας που προκαλεί εγκαύματα. Είναι μια γραμμική κλίμακα που κυμαίνεται από 0 έως 11+, με υψηλότερες τιμές που υποδεικνύουν μεγαλύτερο κίνδυνο έκθεσης σε υπεριώδεις ακτίνες και αυξημένες πιθανότητες εγκαυμάτων και δερματικών βλαβών που θα μπορούσαν τελικά να οδηγήσουν σε καρκίνο του δέρματος.</value>
+  </data>
+  <data name="DescAboutVisibility.Text" xml:space="preserve">
+    <value>Visibility is a measure of the distance at which an object or light can be clearly discerned. A value at or greater than 10 km is considered good and less than 1 km poor.</value>
+  </data>
+  <data name="DescAboutWindSpeed.Text" xml:space="preserve">
+    <value>Ταχύτητα ανέμου είναι ο ρυθμός με τον οποίο ο αέρας κινείται οριζόντια πέρα από ένα δεδομένο σημείο. Είναι μια θεμελιώδης ατμοσφαιρική ποσότητα που προκαλείται από τη μετακίνηση του αέρα από υψηλή σε χαμηλή πίεση, συνήθως λόγω αλλαγών στη θερμοκρασία. Οι ριπές είναι μια ξαφνική αύξηση της ταχύτητας του ανέμου πάνω από τη μέση ταχύτητα του ανέμου. Συνήθως διαρκεί λιγότερο από 20 δευτερόλεπτα.</value>
+  </data>
+  <data name="DescDepthApproximating.Text" xml:space="preserve">
+    <value>Προσέγγιση βάθους..</value>
+  </data>
+  <data name="DescPerformanceIssue.Text" xml:space="preserve">
+    <value>Ο επεξεργαστής γραφικών συστήματος (GPU) δεν υποστηρίζει τα απαιτούμενα χαρακτηριστικά DX12, οπότε μερική λειτουργικότητα είναι απενεργοποιημένη.</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Πρέπει να κατέβουν επιπλέον αρχεία για αυτή τη δυνατότητα</value>
+  </data>
+  <data name="DescUpdateComplete.Text" xml:space="preserve">
+    <value>Δείτε τι νέο υπάρχει</value>
+  </data>
+  <data name="FeelsLikeTemperature.Text" xml:space="preserve">
+    <value>Αίσθηση</value>
+  </data>
+  <data name="FogAmplitude.Header" xml:space="preserve">
+    <value>Πλάτος</value>
+  </data>
+  <data name="FogColorGradient.Text" xml:space="preserve">
+    <value>Χρωματική διαβάθμιση</value>
+  </data>
+  <data name="FrameRateSettings.Description" xml:space="preserve">
+    <value>Ρυθμός ανανέωσης εφέ</value>
+  </data>
+  <data name="FrameRateSettings.Header" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="InfoError.Title" xml:space="preserve">
+    <value>Σφάλμα</value>
+  </data>
+  <data name="InfoTranslation.Message" xml:space="preserve">
+    <value>Συνεισφέρετε σε αυτό το πρόγραμμα μεταφράζοντάς το σε άλλες γλώσσες.</value>
+  </data>
+  <data name="InfoTranslation.Title" xml:space="preserve">
+    <value>Βοηθήστε στη Μετάφραση</value>
+  </data>
+  <data name="LanguageSettings.Description" xml:space="preserve">
+    <value>Η εφαρμογή πρέπει να επανεκκινηθεί κατά την επιλογή μιας άλλης γλώσσας</value>
+  </data>
+  <data name="LanguageSettings.Header" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="LanguageSettingsHelpTranslate.Content" xml:space="preserve">
+    <value>Βοηθήστε στη Μετάφραση!</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Ίδια με των Windows</value>
+  </data>
+  <data name="LearnMore.Content" xml:space="preserve">
+    <value>Μάθετε Περισσότερα</value>
+  </data>
+  <data name="LocationNavView.PaneTitle" xml:space="preserve">
+    <value>Καρφιτσωμένες Τοποθεσίες</value>
+  </data>
+  <data name="OpenLogs.Header" xml:space="preserve">
+    <value>Άνοιγμα αρχείων καταγραφής</value>
+  </data>
+  <data name="PauseIfBackgroundAudioSettings.Header" xml:space="preserve">
+    <value>Παύση ήχου όταν η εφαρμογή δεν είναι στο προσκήνιο</value>
+  </data>
+  <data name="PauseIfBackgroundSettings.Header" xml:space="preserve">
+    <value>Παύση οπτικών όταν η εφαρμογή δεν είναι στο προσκήνιο</value>
+  </data>
+  <data name="PrivacyPolicy.Content" xml:space="preserve">
+    <value>Πολιτική συλλογής δεδομένων</value>
+  </data>
+  <data name="QualityDynamic.Content" xml:space="preserve">
+    <value>Δυναμική</value>
+  </data>
+  <data name="QualityPerformance.Content" xml:space="preserve">
+    <value>Απόδοση</value>
+  </data>
+  <data name="QualityPotato.Content" xml:space="preserve">
+    <value>Πατάτα</value>
+  </data>
+  <data name="QualityQuality.Content" xml:space="preserve">
+    <value>Ποιότητα</value>
+  </data>
+  <data name="QualitySettings.Description" xml:space="preserve">
+    <value>Προεπιλογή ποιότητας οπτικής απόδοσης</value>
+  </data>
+  <data name="QualitySettings.Header" xml:space="preserve">
+    <value>Ποιότητα</value>
+  </data>
+  <data name="RainIntensity.Header" xml:space="preserve">
+    <value>Ένταση</value>
+  </data>
+  <data name="RainLightning.Content" xml:space="preserve">
+    <value>Αστραπή</value>
+  </data>
+  <data name="RainNormal.Header" xml:space="preserve">
+    <value>Κανονικό</value>
+  </data>
+  <data name="RainPanning.Content" xml:space="preserve">
+    <value>Πανοραμικό</value>
+  </data>
+  <data name="RainZoom.Header" xml:space="preserve">
+    <value>Μεγέθυνση</value>
+  </data>
+  <data name="ReduceMotionSettings.Header" xml:space="preserve">
+    <value>Μειωμένη κίνηση</value>
+  </data>
+  <data name="RefreshWeather.Text" xml:space="preserve">
+    <value>Τελευταία ενημέρωση</value>
+  </data>
+  <data name="RefreshWeatherTooltip.Text" xml:space="preserve">
+    <value>Ανανέωση</value>
+  </data>
+  <data name="RestoreDefault.Text" xml:space="preserve">
+    <value>Επαναφορά Προεπιλογών</value>
+  </data>
+  <data name="ScreensaverTooltip.Text" xml:space="preserve">
+    <value>Προφύλαξη Οθόνης</value>
+  </data>
+  <data name="SettingsTooltip.Text" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="ShaderBlur.Content" xml:space="preserve">
+    <value>Θόλωμα</value>
+  </data>
+  <data name="ShaderFreezing.Content" xml:space="preserve">
+    <value>Πάγωμα</value>
+  </data>
+  <data name="ShaderPostProcessing.Header" xml:space="preserve">
+    <value>Μετα-επεξεργασία</value>
+  </data>
+  <data name="ShaderSpeed.Header" xml:space="preserve">
+    <value>Ταχύτητα</value>
+  </data>
+  <data name="SnowDepth.Header" xml:space="preserve">
+    <value>Βάθος</value>
+  </data>
+  <data name="SnowLayers.Header" xml:space="preserve">
+    <value>Επίπεδα</value>
+  </data>
+  <data name="SnowWidth.Header" xml:space="preserve">
+    <value>Πλάτος</value>
+  </data>
+  <data name="SoftwareLicense.Content" xml:space="preserve">
+    <value>Άδεια χρήσης λογισμικού</value>
+  </data>
+  <data name="SoundControlTooltip.Text" xml:space="preserve">
+    <value>Ήχος</value>
+  </data>
+  <data name="SourceCodeCard.Description" xml:space="preserve">
+    <value>Δείξτε λίγη αγάπη βάζοντας αστέρι</value>
+  </data>
+  <data name="SourceCodeCard.Header" xml:space="preserve">
+    <value>Πηγαίος Κώδικας</value>
+  </data>
+  <data name="StringAbout" xml:space="preserve">
+    <value>Σχετικά</value>
+  </data>
+  <data name="StringCancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="StringContinue" xml:space="preserve">
+    <value>Συνέχεια</value>
+  </data>
+  <data name="StringDepthApprox" xml:space="preserve">
+    <value>ΤΝ Προσέγγιση Βάθους</value>
+  </data>
+  <data name="StringGeolocationErrorAccessDenied" xml:space="preserve">
+    <value>Δεν επιτρέπεται η πρόσβαση στην τοποθεσία, έλεγξε τις ρυθμίσεις των Windows.</value>
+  </data>
+  <data name="StringGeolocationErrorAccessUnspecified" xml:space="preserve">
+    <value>Η πρόσβαση στην τοποθεσία δεν έχει καθοριστεί, έλεγξε τις ρυθμίσεις των Windows.</value>
+  </data>
+  <data name="StringHelp" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="StringOk" xml:space="preserve">
+    <value>Οκ</value>
+  </data>
+  <data name="StringSettings" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="StringWeatherKeyMissingRestoredDefault" xml:space="preserve">
+    <value>Λείπει το απαιτούμενο κλειδί API για τον επιλεγμένο πάροχο καιρού, οι ρυθμίσεις αναιρέθηκαν.</value>
+  </data>
+  <data name="ThemeAuto.Content" xml:space="preserve">
+    <value>Αυτόματο</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>Σκοτεινό</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>Φωτεινό</value>
+  </data>
+  <data name="ThemeSettings.Description" xml:space="preserve">
+    <value>Αλλαγή του χρώματος της εφαρμογής</value>
+  </data>
+  <data name="ThemeSettings.Header" xml:space="preserve">
+    <value>Θέμα</value>
+  </data>
+  <data name="TitleAboutAQI.Text" xml:space="preserve">
+    <value>Σχετικά με τον Δείκτη Ποιότητας Αέρα (ΔΠΑ)</value>
+  </data>
+  <data name="TitleAboutCloudAmount.Text" xml:space="preserve">
+    <value>About Cloud Amount</value>
+  </data>
+  <data name="TitleAboutDewPoint.Text" xml:space="preserve">
+    <value>Σχετικά με το σημείο Δρόσου</value>
+  </data>
+  <data name="TitleAboutHumidity.Text" xml:space="preserve">
+    <value>Σχετικά με τη Σχετική Υγρασία</value>
+  </data>
+  <data name="TitleAboutPrecipitation.Text" xml:space="preserve">
+    <value>About Precipitation</value>
+  </data>
+  <data name="TitleAboutPressure.Text" xml:space="preserve">
+    <value>Σχετικά με την Πίεση</value>
+  </data>
+  <data name="TitleAboutUVIndex.Text" xml:space="preserve">
+    <value>Σχετικά με το δείκτη UV</value>
+  </data>
+  <data name="TitleAboutVisibility.Text" xml:space="preserve">
+    <value>About Visibility</value>
+  </data>
+  <data name="TitleAboutWindSpeed.Text" xml:space="preserve">
+    <value>Σχετικά με Ταχύτητα και Ριπές Ανέμου</value>
+  </data>
+  <data name="TitleAccessibility.Text" xml:space="preserve">
+    <value>Προσβασιμότητα</value>
+  </data>
+  <data name="TitleAddLocation.Text" xml:space="preserve">
+    <value>Προσθέστε μια τοποθεσία για να ξεκινήσετε.</value>
+  </data>
+  <data name="TitleAirQuality.Text" xml:space="preserve">
+    <value>Ποιότητα Αέρα</value>
+  </data>
+  <data name="TitleCloudAmount.Text" xml:space="preserve">
+    <value>Cloud Amount</value>
+  </data>
+  <data name="TitleContributors.Text" xml:space="preserve">
+    <value>Συνεισφέροντες</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>Λήψη</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>Απαιτείται Λήψη</value>
+  </data>
+  <data name="TitleFetchingData.Text" xml:space="preserve">
+    <value>Ανάκτηση δεδομένων, παρακαλώ περιμένετε.</value>
+  </data>
+  <data name="TitleGeneral.Text" xml:space="preserve">
+    <value>Γενικά</value>
+  </data>
+  <data name="TitleHello.Text" xml:space="preserve">
+    <value>Χαίρετε</value>
+  </data>
+  <data name="TitleHumidity.Text" xml:space="preserve">
+    <value>Υγρασία</value>
+  </data>
+  <data name="TitlePerformance.Text" xml:space="preserve">
+    <value>Επίδοση</value>
+  </data>
+  <data name="TitlePrecipitation.Text" xml:space="preserve">
+    <value>Precipitation</value>
+  </data>
+  <data name="TitlePressure.Text" xml:space="preserve">
+    <value>Πίεση</value>
+  </data>
+  <data name="TitleSpeed.Text" xml:space="preserve">
+    <value>Ταχύτητα</value>
+  </data>
+  <data name="TitleSun.Text" xml:space="preserve">
+    <value>Ήλιος</value>
+  </data>
+  <data name="TitleSunrise.Text" xml:space="preserve">
+    <value>Ανατολή</value>
+  </data>
+  <data name="TitleSunset.Text" xml:space="preserve">
+    <value>Δύση</value>
+  </data>
+  <data name="TitleTemperature.Text" xml:space="preserve">
+    <value>Θερμοκρασία</value>
+  </data>
+  <data name="TitleUpdateComplete.Text" xml:space="preserve">
+    <value>Η ενημέρωση ολοκληρώθηκε</value>
+  </data>
+  <data name="TitleUVIndex.Text" xml:space="preserve">
+    <value>Δείκτης UV</value>
+  </data>
+  <data name="TitleVisibility.Text" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="TitleWarning.Text" xml:space="preserve">
+    <value>Προειδοποίηση</value>
+  </data>
+  <data name="TitleWeather.Text" xml:space="preserve">
+    <value>Καιρός</value>
+  </data>
+  <data name="TitleWind.Text" xml:space="preserve">
+    <value>Άνεμος</value>
+  </data>
+  <data name="UVIndex0" xml:space="preserve">
+    <value>Καλός</value>
+  </data>
+  <data name="UVIndex1" xml:space="preserve">
+    <value>Υψηλός</value>
+  </data>
+  <data name="UVIndex2" xml:space="preserve">
+    <value>Πολύ Υψηλός</value>
+  </data>
+  <data name="WeatherProviderKeySettings.Header" xml:space="preserve">
+    <value>Κλειδί API</value>
+  </data>
+  <data name="WeatherProviderKeySettingsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Εισήγαγε το απαιτούμενο κλειδί API</value>
+  </data>
+  <data name="WeatherProviderSettings.Description" xml:space="preserve">
+    <value>Πηγή δεδομένων καιρού</value>
+  </data>
+  <data name="WeatherProviderSettings.Header" xml:space="preserve">
+    <value>Πάροχος</value>
+  </data>
+  <data name="WeatherUnitCustom.Content" xml:space="preserve">
+    <value>Προσαρμοσμένη</value>
+  </data>
+  <data name="WeatherUnitHybrid.Content" xml:space="preserve">
+    <value>Υβριδικό</value>
+  </data>
+  <data name="WeatherUnitImperial.Content" xml:space="preserve">
+    <value>Αγγλοσαξωνικό</value>
+  </data>
+  <data name="WeatherUnitMetric.Content" xml:space="preserve">
+    <value>Μετρικό</value>
+  </data>
+  <data name="WeatherUnitSettings.Description" xml:space="preserve">
+    <value>Εμφάνιση μετρήσεων σε</value>
+  </data>
+  <data name="WeatherUnitSettings.Header" xml:space="preserve">
+    <value>Μονάδα</value>
+  </data>
+  <data name="WebpageCard.Description" xml:space="preserve">
+    <value>Επίσημη ιστοσελίδα</value>
+  </data>
+  <data name="WebpageCard.Header" xml:space="preserve">
+    <value>Ιστοσελίδα</value>
+  </data>
+  <data name="WelcomeMessageBeta.Text" xml:space="preserve">
+    <value>Καλώς ήρθατε στην εφαρμογή καιρού μου! Παρακαλώ σημειώστε ότι αυτή η εφαρμογή είναι ακόμα σε beta και ορισμένες δυνατότητες μπορεί να μην λειτουργούν όπως αναμένεται. Εργάζομαι σκληρά για να βελτιώσω την εφαρμογή. Σας ευχαριστώ για την κατανόηση και υπομονή σας.</value>
+  </data>
+  <data name="WmoWeatherString0" xml:space="preserve">
+    <value>Καθαρός Ουρανός</value>
+  </data>
+  <data name="WmoWeatherString1" xml:space="preserve">
+    <value>Κυρίως καθαρός</value>
+  </data>
+  <data name="WmoWeatherString10" xml:space="preserve">
+    <value>Ομίχλη</value>
+  </data>
+  <data name="WmoWeatherString2" xml:space="preserve">
+    <value>Αραιές Νεφώσεις</value>
+  </data>
+  <data name="WmoWeatherString3" xml:space="preserve">
+    <value>Νεφελώδης</value>
+  </data>
+  <data name="WmoWeatherString45" xml:space="preserve">
+    <value>Ομίχλη</value>
+  </data>
+  <data name="WmoWeatherString48" xml:space="preserve">
+    <value>Πάχνη Ομίχλης</value>
+  </data>
+  <data name="WmoWeatherString5" xml:space="preserve">
+    <value>Καταχνιά</value>
+  </data>
+  <data name="WmoWeatherString51" xml:space="preserve">
+    <value>Ψιλόβροχο</value>
+  </data>
+  <data name="WmoWeatherString53" xml:space="preserve">
+    <value>Μέτριο Ψιλόβροχο</value>
+  </data>
+  <data name="WmoWeatherString55" xml:space="preserve">
+    <value>Έντονο ψιλόβροχο</value>
+  </data>
+  <data name="WmoWeatherString56" xml:space="preserve">
+    <value>Ελαφρύ Παγωμένο Ψιλόβροχο</value>
+  </data>
+  <data name="WmoWeatherString57" xml:space="preserve">
+    <value>Έντονο Παγωμένο Ψιλόβροχο</value>
+  </data>
+  <data name="WmoWeatherString6" xml:space="preserve">
+    <value>Σκόνη</value>
+  </data>
+  <data name="WmoWeatherString61" xml:space="preserve">
+    <value>Ελαφριά Βροχή</value>
+  </data>
+  <data name="WmoWeatherString63" xml:space="preserve">
+    <value>Μέτρια Βροχή</value>
+  </data>
+  <data name="WmoWeatherString65" xml:space="preserve">
+    <value>Δυνατή Βροχή</value>
+  </data>
+  <data name="WmoWeatherString66" xml:space="preserve">
+    <value>Ελαφριά Παγωμένη Βροχή</value>
+  </data>
+  <data name="WmoWeatherString67" xml:space="preserve">
+    <value>Δυνατή Παγωμένη Βροχή</value>
+  </data>
+  <data name="WmoWeatherString71" xml:space="preserve">
+    <value>Ελαφριά Χιονόπτωση</value>
+  </data>
+  <data name="WmoWeatherString73" xml:space="preserve">
+    <value>Μέτρια Χιονόπτωση</value>
+  </data>
+  <data name="WmoWeatherString75" xml:space="preserve">
+    <value>Εντολή Χιονόπτωση</value>
+  </data>
+  <data name="WmoWeatherString77" xml:space="preserve">
+    <value>Κόκκοι Χιονιού</value>
+  </data>
+  <data name="WmoWeatherString80" xml:space="preserve">
+    <value>Ελαφριά Μπόρα</value>
+  </data>
+  <data name="WmoWeatherString81" xml:space="preserve">
+    <value>Μέτρια Μπόρα</value>
+  </data>
+  <data name="WmoWeatherString82" xml:space="preserve">
+    <value>Βίαιη Μπόρα</value>
+  </data>
+  <data name="WmoWeatherString85" xml:space="preserve">
+    <value>Ελαφριά Μπόρα Χιονιού</value>
+  </data>
+  <data name="WmoWeatherString86" xml:space="preserve">
+    <value>Ισχυρή Μπόρα Χιονιού</value>
+  </data>
+  <data name="WmoWeatherString95" xml:space="preserve">
+    <value>Καταιγίδα</value>
+  </data>
+  <data name="WmoWeatherString96" xml:space="preserve">
+    <value>Καταιγίδα με Ελαφρύ Χαλάζι</value>
+  </data>
+  <data name="WmoWeatherString99" xml:space="preserve">
+    <value>Καταιγίδα με Βαρύ Χαλάζι</value>
+  </data>
+</root>

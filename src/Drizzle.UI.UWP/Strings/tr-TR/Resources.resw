@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMe.Text" xml:space="preserve">
+    <value>Merhaba, ben Dani John, rocksdanister olarak da bilinirim. Bunun gibi eğlenceli yazılımlar yapıyorum. İşime bakmaya zaman ayırdığın için teşekkürler.</value>
+  </data>
+  <data name="AirQualityIndex0" xml:space="preserve">
+    <value>İyi</value>
+  </data>
+  <data name="AirQualityIndex1" xml:space="preserve">
+    <value>Ölçülü</value>
+  </data>
+  <data name="AirQualityIndex2" xml:space="preserve">
+    <value>Hassas gruplar için sağlıksız</value>
+  </data>
+  <data name="AirQualityIndex3" xml:space="preserve">
+    <value>Sağlıksız</value>
+  </data>
+  <data name="AirQualityIndex4" xml:space="preserve">
+    <value>Çok sağlıksız</value>
+  </data>
+  <data name="AirQualityIndex5" xml:space="preserve">
+    <value>Tehlikeli</value>
+  </data>
+  <data name="AlwaysHideScreensaverMenu.Content" xml:space="preserve">
+    <value>Boştayken her zaman menüyü gizle</value>
+  </data>
+  <data name="AppBarAbout.Label" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="AppBarHelp.Label" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="AppBarSettings.Label" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="AppTitlebarSearch.PlaceholderText" xml:space="preserve">
+    <value>Bir yer arayın</value>
+  </data>
+  <data name="Attribution.Content" xml:space="preserve">
+    <value>Üçüncü taraf yazılım bildirimi</value>
+  </data>
+  <data name="BackgroundBrightnessSettings.Description" xml:space="preserve">
+    <value>Arka plan parlaklığını ayarla</value>
+  </data>
+  <data name="BackgroundBrightnessSettings.Header" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="BrowseFile.Content" xml:space="preserve">
+    <value>Dosyalardan seç</value>
+  </data>
+  <data name="ChangeBackground.Content" xml:space="preserve">
+    <value>Arka plan</value>
+  </data>
+  <data name="CheckUpdate.Content" xml:space="preserve">
+    <value>Güncellemeleri kontrol et</value>
+  </data>
+  <data name="CloudDayNightShift.Content" xml:space="preserve">
+    <value>Gündüz / Gece</value>
+  </data>
+  <data name="CloudIterations.Header" xml:space="preserve">
+    <value>Yinelemeler</value>
+  </data>
+  <data name="CloudScale.Header" xml:space="preserve">
+    <value>Ölçek</value>
+  </data>
+  <data name="ContactCard.Description" xml:space="preserve">
+    <value>Bir özellik öner veya bir hata bildir</value>
+  </data>
+  <data name="ContactCard.Header" xml:space="preserve">
+    <value>Bağlantıya geç</value>
+  </data>
+  <data name="CustomBackgroundSettings.Description" xml:space="preserve">
+    <value>Kullanıcı tarafından seçilen görüntüleri hava efektlerine dahil edin</value>
+  </data>
+  <data name="CustomBackgroundSettings.Header" xml:space="preserve">
+    <value>Özel Arka Plan</value>
+  </data>
+  <data name="DepthHorizontal.Header" xml:space="preserve">
+    <value>Yatay</value>
+  </data>
+  <data name="DepthVertical.Header" xml:space="preserve">
+    <value>Dikey</value>
+  </data>
+  <data name="DescAboutAQI.Text" xml:space="preserve">
+    <value>Hava Kalitesi İndeksi(AQI), en yaygın beş hava kirleticisinin sağlığa etkileri hakkında bilgi sağlamak üzere tasarlanmıştır. Daha yüksek değerlerin daha şiddetli hava kirliliği ve daha büyük sağlık tehlikelerine işaret ettiği, 0 ile 500 arasında değişen bir ölçektir.</value>
+  </data>
+  <data name="DescAboutCloudAmount.Text" xml:space="preserve">
+    <value>Cloud amount refers to the fraction of the sky obscured by clouds on average when observed from a particular location.</value>
+  </data>
+  <data name="DescAboutDewPoint.Text" xml:space="preserve">
+    <value>Çiğlenme noktası sıcaklığı, havadaki su buharı miktarının mutlak bir ölçüsüdür. Çiğlenme noktası sıcaklığı ve hava sıcaklığı eşit olduğunda bağıl nem% 100'dür. Bu noktada, hava tamamen su buharı ile doyurulur ve çiğ, sis veya bulutlar şeklinde yoğunlaşmaya neden olur.</value>
+  </data>
+  <data name="DescAboutHumidity.Text" xml:space="preserve">
+    <value>Bağıl nem, havanın o sıcaklıkta tutabileceği maksimum miktara kıyasla havada bulunan su buharı miktarının bir ölçüsüdür. Yüzde olarak ifade edilir ve havanın doygunluğa ne kadar yakın olduğu hakkında bilgi sağlar.</value>
+  </data>
+  <data name="DescAboutPrecipitation.Text" xml:space="preserve">
+    <value>Precipitation is the depth of water that would accumulate on a flat surface from the condensation of atmospheric water vapor falling from clouds due to gravitational pull. It includes various forms such as rain, snow, sleet, and hail.</value>
+  </data>
+  <data name="DescAboutPressure.Text" xml:space="preserve">
+    <value>Atmosferik basınç olarak da bilinen barometrik basınç, belirli bir alandaki hava basıncının ölçüsüdür.</value>
+  </data>
+  <data name="DescAboutUVIndex.Text" xml:space="preserve">
+    <value>Dünya Sağlık Örgütü'nün UV indeksi (UVI), güneş yanığı üreten ultraviyole radyasyonun gücünü ölçer. UV ışınlarına maruz kalma riskinin arttığını ve sonuçta cilt kanserine yol açabilecek güneş yanığı ve cilt hasarı olasılığının arttığını gösteren daha yüksek değerlere sahip, 0 ile 11+ arasında değişen doğrusal bir ölçektir.</value>
+  </data>
+  <data name="DescAboutVisibility.Text" xml:space="preserve">
+    <value>Visibility is a measure of the distance at which an object or light can be clearly discerned. A value at or greater than 10 km is considered good and less than 1 km poor.</value>
+  </data>
+  <data name="DescAboutWindSpeed.Text" xml:space="preserve">
+    <value>Rüzgar hızı, havanın belirli bir noktayı yatay olarak geçme hızıdır. Genellikle sıcaklıktaki değişikliklerden dolayı yüksekten alçak basınca hareket eden havanın neden olduğu temel bir atmosferik miktardır. Konuklar rüzgar hızında ortalama rüzgar hızının üzerinde ani bir artış olur. Genellikle 20 saniyeden az sürer.</value>
+  </data>
+  <data name="DescDepthApproximating.Text" xml:space="preserve">
+    <value>Derinlik hesaplanıyor..</value>
+  </data>
+  <data name="DescPerformanceIssue.Text" xml:space="preserve">
+    <value>Sistem grafik işlemcisi (GPU) gerekli DX12 özelliklerini desteklemez, bu nedenle bazı işlevler devre dışı bırakılır.</value>
+  </data>
+  <data name="DescriptionDownloadRequired.Text" xml:space="preserve">
+    <value>Bu özellik için ek dosyaların indirilmesi gerekir</value>
+  </data>
+  <data name="DescUpdateComplete.Text" xml:space="preserve">
+    <value>Yeniliklere göz atın</value>
+  </data>
+  <data name="FeelsLikeTemperature.Text" xml:space="preserve">
+    <value>Hissedilen</value>
+  </data>
+  <data name="FogAmplitude.Header" xml:space="preserve">
+    <value>Genlik</value>
+  </data>
+  <data name="FogColorGradient.Text" xml:space="preserve">
+    <value>Renk Gradyanı</value>
+  </data>
+  <data name="FrameRateSettings.Description" xml:space="preserve">
+    <value>Animasyon kare hızı</value>
+  </data>
+  <data name="FrameRateSettings.Header" xml:space="preserve">
+    <value>Kare Hızı</value>
+  </data>
+  <data name="InfoError.Title" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="InfoTranslation.Message" xml:space="preserve">
+    <value>Bu programa diğer dillere çevirerek katkıda bulunun.</value>
+  </data>
+  <data name="InfoTranslation.Title" xml:space="preserve">
+    <value>Çeviriye Yardım Et</value>
+  </data>
+  <data name="LanguageSettings.Description" xml:space="preserve">
+    <value>Başka bir dil seçerken uygulamanın yeniden başlatılması gerekiyor</value>
+  </data>
+  <data name="LanguageSettings.Header" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="LanguageSettingsHelpTranslate.Content" xml:space="preserve">
+    <value>Çevirmeye yardım et!</value>
+  </data>
+  <data name="LanguageSettingsItemSystemDefault.Content" xml:space="preserve">
+    <value>Windows ile aynı</value>
+  </data>
+  <data name="LearnMore.Content" xml:space="preserve">
+    <value>Daha Fazla Bilgi Edinin</value>
+  </data>
+  <data name="LocationNavView.PaneTitle" xml:space="preserve">
+    <value>Sabitlenmiş Konumlar</value>
+  </data>
+  <data name="OpenLogs.Header" xml:space="preserve">
+    <value>Kayıtları aç</value>
+  </data>
+  <data name="PauseIfBackgroundAudioSettings.Header" xml:space="preserve">
+    <value>Uygulama ön planda değilken sesi duraklat</value>
+  </data>
+  <data name="PauseIfBackgroundSettings.Header" xml:space="preserve">
+    <value>Uygulama ön planda olmadığında görseli duraklat</value>
+  </data>
+  <data name="PrivacyPolicy.Content" xml:space="preserve">
+    <value>Veri toplama politikası</value>
+  </data>
+  <data name="QualityDynamic.Content" xml:space="preserve">
+    <value>Dinamik</value>
+  </data>
+  <data name="QualityPerformance.Content" xml:space="preserve">
+    <value>Performans</value>
+  </data>
+  <data name="QualityPotato.Content" xml:space="preserve">
+    <value>Çok düşük</value>
+  </data>
+  <data name="QualityQuality.Content" xml:space="preserve">
+    <value>Kaliteli</value>
+  </data>
+  <data name="QualitySettings.Description" xml:space="preserve">
+    <value>Görsel oluşturma kalitesi ön ayarı</value>
+  </data>
+  <data name="QualitySettings.Header" xml:space="preserve">
+    <value>Kalite</value>
+  </data>
+  <data name="RainIntensity.Header" xml:space="preserve">
+    <value>Yoğunluk</value>
+  </data>
+  <data name="RainLightning.Content" xml:space="preserve">
+    <value>Yıldırım</value>
+  </data>
+  <data name="RainNormal.Header" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="RainPanning.Content" xml:space="preserve">
+    <value>Kaydırma</value>
+  </data>
+  <data name="RainZoom.Header" xml:space="preserve">
+    <value>Yakınlaştırma</value>
+  </data>
+  <data name="ReduceMotionSettings.Header" xml:space="preserve">
+    <value>Azaltılmış hareket</value>
+  </data>
+  <data name="RefreshWeather.Text" xml:space="preserve">
+    <value>En son güncellenen tarih</value>
+  </data>
+  <data name="RefreshWeatherTooltip.Text" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="RestoreDefault.Text" xml:space="preserve">
+    <value>Varsayılanı Geri Yükle</value>
+  </data>
+  <data name="ScreensaverTooltip.Text" xml:space="preserve">
+    <value>Ekran Koruyucu</value>
+  </data>
+  <data name="SettingsTooltip.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ShaderBlur.Content" xml:space="preserve">
+    <value>Bulanıklaştır</value>
+  </data>
+  <data name="ShaderFreezing.Content" xml:space="preserve">
+    <value>Donma</value>
+  </data>
+  <data name="ShaderPostProcessing.Header" xml:space="preserve">
+    <value>Çekim Sonrası İşleme</value>
+  </data>
+  <data name="ShaderSpeed.Header" xml:space="preserve">
+    <value>Hız</value>
+  </data>
+  <data name="SnowDepth.Header" xml:space="preserve">
+    <value>Derinlik</value>
+  </data>
+  <data name="SnowLayers.Header" xml:space="preserve">
+    <value>Katmanlar</value>
+  </data>
+  <data name="SnowWidth.Header" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="SoftwareLicense.Content" xml:space="preserve">
+    <value>Yazılım lisansı</value>
+  </data>
+  <data name="SoundControlTooltip.Text" xml:space="preserve">
+    <value>Ses</value>
+  </data>
+  <data name="SourceCodeCard.Description" xml:space="preserve">
+    <value>Bir yıldız bırakarak biraz sevgi göster</value>
+  </data>
+  <data name="SourceCodeCard.Header" xml:space="preserve">
+    <value>Kaynak Kodu</value>
+  </data>
+  <data name="StringAbout" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="StringCancel" xml:space="preserve">
+    <value>İptal et</value>
+  </data>
+  <data name="StringContinue" xml:space="preserve">
+    <value>Devam Et</value>
+  </data>
+  <data name="StringDepthApprox" xml:space="preserve">
+    <value>Yapay Zeka Derinlik Ortalaması</value>
+  </data>
+  <data name="StringGeolocationErrorAccessDenied" xml:space="preserve">
+    <value>Lokasyona erişim reddedildi, Windows ayarlarına bir göz atın.</value>
+  </data>
+  <data name="StringGeolocationErrorAccessUnspecified" xml:space="preserve">
+    <value>Lokasyona erişimi belirtilmemiş, Windows ayarlarına bir göz atın.</value>
+  </data>
+  <data name="StringHelp" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="StringOk" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="StringSettings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="StringWeatherKeyMissingRestoredDefault" xml:space="preserve">
+    <value>Seçili hava durumu sağlayıcısı için gerekli API anahtarı eksik, ayarlar geri alındı.</value>
+  </data>
+  <data name="ThemeAuto.Content" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="ThemeDark.Content" xml:space="preserve">
+    <value>Koyu</value>
+  </data>
+  <data name="ThemeLight.Content" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="ThemeSettings.Description" xml:space="preserve">
+    <value>Uygulama rengini değiştirme</value>
+  </data>
+  <data name="ThemeSettings.Header" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="TitleAboutAQI.Text" xml:space="preserve">
+    <value>Hava Kalitesi Endeksi (AQI) Hakkında</value>
+  </data>
+  <data name="TitleAboutCloudAmount.Text" xml:space="preserve">
+    <value>About Cloud Amount</value>
+  </data>
+  <data name="TitleAboutDewPoint.Text" xml:space="preserve">
+    <value>Çiğlenme noktası hakkında</value>
+  </data>
+  <data name="TitleAboutHumidity.Text" xml:space="preserve">
+    <value>Bağıl Nem Hakkında</value>
+  </data>
+  <data name="TitleAboutPrecipitation.Text" xml:space="preserve">
+    <value>About Precipitation</value>
+  </data>
+  <data name="TitleAboutPressure.Text" xml:space="preserve">
+    <value>Basınç Hakkında</value>
+  </data>
+  <data name="TitleAboutUVIndex.Text" xml:space="preserve">
+    <value>UV İndeksi Hakkında</value>
+  </data>
+  <data name="TitleAboutVisibility.Text" xml:space="preserve">
+    <value>About Visibility</value>
+  </data>
+  <data name="TitleAboutWindSpeed.Text" xml:space="preserve">
+    <value>Rüzgar Hızı ve Rüzgarlar Hakkında</value>
+  </data>
+  <data name="TitleAccessibility.Text" xml:space="preserve">
+    <value>Erişilebilirlik</value>
+  </data>
+  <data name="TitleAddLocation.Text" xml:space="preserve">
+    <value>Başlamak için bir konum ekleyin.</value>
+  </data>
+  <data name="TitleAirQuality.Text" xml:space="preserve">
+    <value>Hava Kalitesi</value>
+  </data>
+  <data name="TitleCloudAmount.Text" xml:space="preserve">
+    <value>Cloud Amount</value>
+  </data>
+  <data name="TitleContributors.Text" xml:space="preserve">
+    <value>Katkıda Bulunanlar</value>
+  </data>
+  <data name="TitleDownload.Content" xml:space="preserve">
+    <value>İndir</value>
+  </data>
+  <data name="TitleDownloadRequired.Text" xml:space="preserve">
+    <value>İndirme Gerekli</value>
+  </data>
+  <data name="TitleFetchingData.Text" xml:space="preserve">
+    <value>Veri getiriliyor, lütfen bekleyin.</value>
+  </data>
+  <data name="TitleGeneral.Text" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="TitleHello.Text" xml:space="preserve">
+    <value>Merhaba</value>
+  </data>
+  <data name="TitleHumidity.Text" xml:space="preserve">
+    <value>Nem</value>
+  </data>
+  <data name="TitlePerformance.Text" xml:space="preserve">
+    <value>Performans</value>
+  </data>
+  <data name="TitlePrecipitation.Text" xml:space="preserve">
+    <value>Precipitation</value>
+  </data>
+  <data name="TitlePressure.Text" xml:space="preserve">
+    <value>Basınç</value>
+  </data>
+  <data name="TitleSpeed.Text" xml:space="preserve">
+    <value>Hız</value>
+  </data>
+  <data name="TitleSun.Text" xml:space="preserve">
+    <value>Güneş</value>
+  </data>
+  <data name="TitleSunrise.Text" xml:space="preserve">
+    <value>Gün Doğumu</value>
+  </data>
+  <data name="TitleSunset.Text" xml:space="preserve">
+    <value>Gün Batımı</value>
+  </data>
+  <data name="TitleTemperature.Text" xml:space="preserve">
+    <value>Derece</value>
+  </data>
+  <data name="TitleUpdateComplete.Text" xml:space="preserve">
+    <value>Güncelleme tamamlandı</value>
+  </data>
+  <data name="TitleUVIndex.Text" xml:space="preserve">
+    <value>UV İndeksi</value>
+  </data>
+  <data name="TitleVisibility.Text" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="TitleWarning.Text" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="TitleWeather.Text" xml:space="preserve">
+    <value>Hava durumu</value>
+  </data>
+  <data name="TitleWind.Text" xml:space="preserve">
+    <value>Rüzgar</value>
+  </data>
+  <data name="UVIndex0" xml:space="preserve">
+    <value>İyi</value>
+  </data>
+  <data name="UVIndex1" xml:space="preserve">
+    <value>Yüksek</value>
+  </data>
+  <data name="UVIndex2" xml:space="preserve">
+    <value>Çok Yüksek</value>
+  </data>
+  <data name="WeatherProviderKeySettings.Header" xml:space="preserve">
+    <value>API anahtarı</value>
+  </data>
+  <data name="WeatherProviderKeySettingsTextbox.PlaceholderText" xml:space="preserve">
+    <value>Gerekli olan API anahtarını girin</value>
+  </data>
+  <data name="WeatherProviderSettings.Description" xml:space="preserve">
+    <value>Hava durumu veri kaynağı</value>
+  </data>
+  <data name="WeatherProviderSettings.Header" xml:space="preserve">
+    <value>Sağlayıcı</value>
+  </data>
+  <data name="WeatherUnitCustom.Content" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="WeatherUnitHybrid.Content" xml:space="preserve">
+    <value>Hibrit</value>
+  </data>
+  <data name="WeatherUnitImperial.Content" xml:space="preserve">
+    <value>Emperyal</value>
+  </data>
+  <data name="WeatherUnitMetric.Content" xml:space="preserve">
+    <value>Metrik</value>
+  </data>
+  <data name="WeatherUnitSettings.Description" xml:space="preserve">
+    <value>Gösterilecek ölçüm birimi</value>
+  </data>
+  <data name="WeatherUnitSettings.Header" xml:space="preserve">
+    <value>Ölçüm Birimi</value>
+  </data>
+  <data name="WebpageCard.Description" xml:space="preserve">
+    <value>Resmi internet sitesi</value>
+  </data>
+  <data name="WebpageCard.Header" xml:space="preserve">
+    <value>İnternet sitesi</value>
+  </data>
+  <data name="WelcomeMessageBeta.Text" xml:space="preserve">
+    <value>Hava durumu uygulamama hoş geldiniz! Lütfen bu uygulamanın hala beta sürümünde olduğunu ve bazı özelliklerin beklendiği gibi çalışmayabileceğini unutmayın. Uygulamayı geliştirmek ve daha iyi hale getirmek için çok çalışıyorum. Anlayışınız ve sabrınız için teşekkür ederiz.</value>
+  </data>
+  <data name="WmoWeatherString0" xml:space="preserve">
+    <value>Açık Gökyüzü</value>
+  </data>
+  <data name="WmoWeatherString1" xml:space="preserve">
+    <value>Çoğunlukla Açık</value>
+  </data>
+  <data name="WmoWeatherString10" xml:space="preserve">
+    <value>İnce Sis</value>
+  </data>
+  <data name="WmoWeatherString2" xml:space="preserve">
+    <value>Parçalı Bulutlu</value>
+  </data>
+  <data name="WmoWeatherString3" xml:space="preserve">
+    <value>Bulutlu</value>
+  </data>
+  <data name="WmoWeatherString45" xml:space="preserve">
+    <value>Sis</value>
+  </data>
+  <data name="WmoWeatherString48" xml:space="preserve">
+    <value>Kırağı Sisi Birikintisi</value>
+  </data>
+  <data name="WmoWeatherString5" xml:space="preserve">
+    <value>Hafif Sis</value>
+  </data>
+  <data name="WmoWeatherString51" xml:space="preserve">
+    <value>Hafif Çiseleme</value>
+  </data>
+  <data name="WmoWeatherString53" xml:space="preserve">
+    <value>Orta Derecede Çiseleme</value>
+  </data>
+  <data name="WmoWeatherString55" xml:space="preserve">
+    <value>Yoğun Çiseleme</value>
+  </data>
+  <data name="WmoWeatherString56" xml:space="preserve">
+    <value>Hafif Dondurucu Çiseleme</value>
+  </data>
+  <data name="WmoWeatherString57" xml:space="preserve">
+    <value>Yoğun Dondurucu Çiseleme</value>
+  </data>
+  <data name="WmoWeatherString6" xml:space="preserve">
+    <value>Toz</value>
+  </data>
+  <data name="WmoWeatherString61" xml:space="preserve">
+    <value>Hafif Yağmur</value>
+  </data>
+  <data name="WmoWeatherString63" xml:space="preserve">
+    <value>Orta Derecede Yağmur</value>
+  </data>
+  <data name="WmoWeatherString65" xml:space="preserve">
+    <value>Şiddetli Yağmur</value>
+  </data>
+  <data name="WmoWeatherString66" xml:space="preserve">
+    <value>Hafif Dondurucu Yağmur</value>
+  </data>
+  <data name="WmoWeatherString67" xml:space="preserve">
+    <value>Şiddetli Dondurucu Yağmur</value>
+  </data>
+  <data name="WmoWeatherString71" xml:space="preserve">
+    <value>Hafif Kar Yağışı</value>
+  </data>
+  <data name="WmoWeatherString73" xml:space="preserve">
+    <value>Orta Derecede Kar Yağışı</value>
+  </data>
+  <data name="WmoWeatherString75" xml:space="preserve">
+    <value>Şiddetli Kar Yağışı</value>
+  </data>
+  <data name="WmoWeatherString77" xml:space="preserve">
+    <value>Kar Taneleri</value>
+  </data>
+  <data name="WmoWeatherString80" xml:space="preserve">
+    <value>Hafif Sağanak</value>
+  </data>
+  <data name="WmoWeatherString81" xml:space="preserve">
+    <value>Orta Derecede Sağanak</value>
+  </data>
+  <data name="WmoWeatherString82" xml:space="preserve">
+    <value>Şiddetli Sağanak</value>
+  </data>
+  <data name="WmoWeatherString85" xml:space="preserve">
+    <value>Hafif Kar Sağanğı</value>
+  </data>
+  <data name="WmoWeatherString86" xml:space="preserve">
+    <value>Yoğun Kar Sağanağı</value>
+  </data>
+  <data name="WmoWeatherString95" xml:space="preserve">
+    <value>Fırtına</value>
+  </data>
+  <data name="WmoWeatherString96" xml:space="preserve">
+    <value>Hafif Dolu Fırtınası</value>
+  </data>
+  <data name="WmoWeatherString99" xml:space="preserve">
+    <value>Şiddetli Dolu Fırtınası</value>
+  </data>
+</root>
